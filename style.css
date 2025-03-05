@@ -18,7 +18,7 @@ header {
 
 .logo-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* ทำให้โลโก้และลิงก์อยู่ตรงกลาง */
     align-items: center;
 }
 
@@ -33,6 +33,7 @@ header {
 
 nav.left-nav {
     display: flex;
+    margin-right: 20px; /* เว้นระยะห่างระหว่างแถบข้างซ้าย */
 }
 
 nav.left-nav a {
