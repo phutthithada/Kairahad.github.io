@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Shop - ร้านค้าออนไลน์</title>
+    <title>Elite Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Header -->
     <header>
-        <h1>Elite Shop</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">หน้าหลัก</a></li>
-                <li><a href="products.html">สินค้า</a></li>
-                <li><a href="cart.html">ตะกร้าสินค้า</a></li>
-                <li><a href="login.html">เข้าสู่ระบบ</a></li>
-            </ul>
-        </nav>
+        <div class="logo-nav">
+            <div class="logo">
+                <img src="https://i.postimg.cc/Hnz5z6Gq/IMG-7777.png" alt="Logo" class="logo-img">
+            </div>
+            <nav class="left-nav">
+                <a href="index.html">หน้าแรก</a>
+                <a href="#products">สินค้าทั้งหมด</a>
+                <a href="#about">เกี่ยวกับเรา</a>
+                <a href="#contact">ติดต่อเรา</a>
+            </nav>
+            <div class="right-nav">
+                <a href="register.html" class="register">สมัครสมาชิก</a>
+                <a href="login.html">เข้าสู่ระบบ</a> <!-- This is the login link -->
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="hero">
-            <h2>ยินดีต้อนรับสู่ Elite Shop</h2>
-            <p>ซื้อสินค้าออนไลน์ง่ายๆ พร้อมโปรโมชั่นพิเศษ!</p>
-        </section>
-    </main>
+
+    <!-- หมวดหมู่แนะนำสำหรับคุณ -->
+    <section id="categories">
+        <h2>หมวดหมู่แนะนำสำหรับคุณ</h2>
+        <div class="category-container">
+            <div class="category-box">
+                <button class="category-button">หมวดหมู่ 1</button>
+                <p>คำอธิบายเกี่ยวกับหมวดหมู่ 1</p>
+            </div>
+            <div class="category-box">
+                <button class="category-button">หมวดหมู่ 2</button>
+                <p>คำอธิบายเกี่ยวกับหมวดหมู่ 2</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Elite Shop. All rights reserved.</p>
+        <p>© 2025 Elite Shop. สงวนลิขสิทธิ์.</p>
     </footer>
 </body>
 </html>
